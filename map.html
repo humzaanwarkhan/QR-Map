@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Room Clue</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #000, #1a1a1a);
+            margin: 0;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .image-container {
+            width: 90%;
+            max-width: 800px;
+            position: relative;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+        .hint-text {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #f4a261;
+            text-shadow: 0 0 10px #f4a261, 0 0 20px #f4a261;
+        }
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.6);
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/roomImage.jpeg" alt="Escape Room Clue">
+    </div>
+    <p class="hint-text">Not everything is as it seems... Some things stand out for a reason. 🧐</p>
+</body>
+</html>
